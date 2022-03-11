@@ -158,5 +158,44 @@ a {
 .features-card-last:hover a {
   color: #f3f3f3;
 }
-
 /* features End */
+
+/* about section Start */
+.intro h6 {
+  color: #f54748;
+}
+.intro h3 {
+  font-size: 2.3rem;
+  line-height: 44px;
+  font-weight: bold;
+}
+
+.intro p {
+  line-height: 25px;
+  word-spacing: 3px;
+  font-size: 17px;
+  color: #363636;
+}
+
+.single-info th {
+  padding-right: 35px;
+}
+
+.single-info tr td:last-child {
+  padding-left: 20px;
+  font-size: 1rem;
+  color: #363636;
+}
+.cv-download a {
+  padding: 15px 40px;
+  color: #f3f3f3;
+  background: #f54748;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 40px;
+}
+.cv-download a:hover {
+  background: #060606;
+  transition: 0.9s;
+}
+/* about section End */
