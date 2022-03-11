@@ -6,8 +6,11 @@ body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
-.active {
-  color: #f54748;
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
 }
 /* header section Start  */
 
@@ -66,3 +69,94 @@ body {
 /* navbar content End */
 
 /* header section End */
+
+#clients img {
+  width: 120px;
+  margin: 0 auto;
+  display: block;
+  opacity: 0.3;
+}
+#clients img:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+/* features Start  */
+#features {
+  margin-top: 7%;
+}
+.features-left h1 {
+  font-weight: 600;
+  font-size: 6rem;
+}
+.features-left p {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  width: 200px;
+}
+
+.features-right h4 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+.icon-style i {
+  background: #f54748;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.features-card {
+  background: #131917;
+}
+.features-card a {
+  color: #ffffff;
+}
+.features-card h6 {
+  font-weight: 600;
+}
+.title-head a {
+  font-weight: 701;
+  font-size: 1.1rem;
+  margin-top: 10%;
+  display: inline-block;
+}
+.icon-style i {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.card-last-text a {
+  font-size: 15px;
+  font-weight: 502;
+}
+.icon-style {
+  padding-top: 20%;
+}
+
+/* 2nd card  */
+.features-card-last {
+  background: #ebf4f5;
+}
+.features-card-last a {
+  color: #ebf4f5;
+}
+.features-card-last h6 a {
+  font-weight: 600;
+  color: #060606;
+}
+/* hover  */
+.features-card-last:hover {
+  background: #131917;
+  transition: 0.8s;
+}
+.features-card-last:hover a {
+  color: #f3f3f3;
+}
+
+/* features End */
