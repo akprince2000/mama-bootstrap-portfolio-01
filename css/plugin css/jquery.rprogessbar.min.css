@@ -1,0 +1,20 @@
+.progressbar {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  position: relative;
+  background-color: #f5ecec;
+}
+.proggress {
+  height: 5px;
+  width: 5px;
+  background-color: #ff0;
+}
+.percentCount {
+  float: right;
+  margin-top: -42px;
+  clear: both;
+  font-weight: 900;
+  font-size: 15px;
+  color: #000000da;
+}
