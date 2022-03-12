@@ -161,6 +161,9 @@ a {
 /* features End */
 
 /* about section Start */
+#about {
+  margin-top: 10%;
+}
 .intro h6 {
   color: #f54748;
 }
