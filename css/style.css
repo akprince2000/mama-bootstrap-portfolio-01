@@ -19,7 +19,15 @@ a {
   height: 100vh;
   background-size: cover;
   opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+@media only screen and (max-width: 576px) {
+  .banar-img {
+    background-position: -120vw center;
+  }
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #060606;
 }
@@ -403,3 +411,18 @@ ul.menu li + li {
 }
 
 /* services-area section End */
+#testimonials {
+  margin-top: 10%;
+}
+.testimonials-slider-left i {
+  color: #f54748;
+  font-size: 3.5rem;
+}
+.testimonials-slider-para {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.testimonials-slider-left h4 {
+  color: #f54748;
+  font-weight: 700;
+}
