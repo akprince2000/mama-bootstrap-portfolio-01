@@ -1,11 +1,42 @@
+@media only screen and (max-width: 980px) {
+  .features-right h4 {
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .features-right h4 {
+    font-size: 1.6rem;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   #features h4 {
-    font-size: 27px;
-    width: 400px;
+    font-size: 22px;
+    width: 315px;
     margin-left: 5%;
   }
 
   .banar-img {
-    background-position: -120vw center;
+    background-position: -47vw center;
+    height: 60vh;
+  }
+  .features-right h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #features h4 {
+    font-size: 21px;
+    width: 95%;
+    margin-left: 5%;
+    line-height: 26px;
+  }
+  .banar-img {
+    background-position: -58vw center;
+    height: 53vh;
   }
 }
