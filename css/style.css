@@ -69,6 +69,32 @@ a {
   font-weight: 502;
   display: inline-block;
 }
+/* text-type css  */
+
+.box {
+  /* width: 700px;
+  margin: 240px auto; */
+  font-size: 30px;
+  font-weight: bold;
+  font-family: lato;
+  text-align: center;
+}
+.typed {
+  color: black;
+}
+.box h2 {
+  font-size: 80px;
+  color: #fff;
+  margin: 0;
+  font-family: lato;
+  font-weight: 900;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px black;
+}
+#example {
+  margin: 0;
+}
+
 /* navbar content End */
 
 /* header section End */
@@ -421,3 +447,45 @@ ul.menu li + li {
   color: #f54748;
   font-weight: 700;
 }
+
+/* footer Section Start  */
+footer {
+  background: #131917;
+}
+.logo a {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.footer-contant a,
+p {
+  color: #ffffff;
+}
+.footer-contant a i {
+  width: 45px;
+  height: 45px;
+  background: #303031;
+  border-radius: 50%;
+  padding: 10px;
+  line-height: 25px;
+  /* text-align: center; */
+  font-size: 21px;
+  margin: 0 3px;
+  display: inline-block;
+}
+
+.footer-contant a i:hover {
+  background: #f54748;
+  transition: 0.3s;
+}
+
+.footer-end hr {
+  background: #ffffff;
+}
+.footer-end p a {
+  color: #f54748;
+}
+.footer-end p a:hover {
+  text-decoration: underline;
+}
+/* footer Section End */

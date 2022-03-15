@@ -1,3 +1,10 @@
+// text type js 
+$(function(){})
+
+
+
+
+
 
 // slider Start
 var owl = $('.owl-carousel');

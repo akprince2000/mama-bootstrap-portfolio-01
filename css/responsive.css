@@ -17,6 +17,10 @@
     margin-left: 5%;
   }
 
+  .features-left p {
+    width: 400px;
+  }
+
   .banar-img {
     background-position: -47vw center;
     height: 60vh;
