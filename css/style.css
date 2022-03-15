@@ -22,11 +22,6 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
-@media only screen and (max-width: 576px) {
-  .banar-img {
-    background-position: -120vw center;
-  }
-}
 
 .navbar-light .navbar-nav .nav-link {
   color: #060606;
