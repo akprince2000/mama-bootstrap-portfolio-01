@@ -3,7 +3,7 @@
   padding: 0;
 }
 html {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -24,6 +24,7 @@ a {
   opacity: 0.9;
   background-position: center;
   background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -71,6 +72,9 @@ a {
   font-size: 17px;
   font-weight: 502;
   display: inline-block;
+}
+.navbar-contant p {
+  color: black;
 }
 /* text-type css  */
 
@@ -445,6 +449,7 @@ ul.menu li + li {
 .testimonials-slider-para {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
+  color: #363636;
 }
 .testimonials-slider-left h4 {
   color: #f54748;
