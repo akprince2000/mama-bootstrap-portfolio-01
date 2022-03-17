@@ -1,66 +1,74 @@
 @media only screen and (max-width: 980px) {
-    .features-right h4 {
-        font-size: 1.9rem;
-    }
+  .features-right h4 {
+    font-size: 1.9rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .features-right h4 {
-        font-size: 1.6rem;
-    }
+  .features-right h4 {
+    font-size: 1.6rem;
+  }
 
-    .banar-img {
-        background-position: 0vh center;
-        height: 105vh;
-    }
+  .banar-img {
+    background-position: 0vh center;
+    height: 105vh;
+  }
 }
 
 @media only screen and (max-width: 576px) {
-    #features h4 {
-        font-size: 22px;
-        width: 315px;
-        margin-left: 5%;
-    }
+  #features h4 {
+    font-size: 22px;
+    width: 315px;
+    margin-left: 5%;
+  }
 
-    .features-left p {
-        width: 400px;
-    }
+  .features-left p {
+    width: 400px;
+  }
 
-    .banar-img {
-        background-position: -40vh center;
-    }
+  .banar-img {
+    background-position: -40vh center;
+  }
 
-    .features-right h4 {
-        font-size: 1rem;
-        font-weight: bold;
-        line-height: 32px;
-    }
+  .features-right h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 32px;
+  }
 
-    .navbar-contant h4 {
-        padding-top: 10%;
-    }
+  .navbar-contant h4 {
+    padding-top: 10%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    #features h4 {
-        font-size: 21px;
-        width: 95%;
-        margin-left: 5%;
-        line-height: 26px;
-    }
+  #features h4 {
+    font-size: 21px;
+    width: 95%;
+    margin-left: 5%;
+    line-height: 26px;
+  }
+  .banar-img {
+    background-position: -40vh center;
+    height: 115vh;
+  }
 
-    /* .banar-img {
-    background-position: -34vw center;
-    min-height: 115vh;
-  } */
-    .banar-img {
-        background-position: -21vh center;
-        height: 46vh;
-    }
+  #about img {
+    max-width: 90%;
+    margin: auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .banar-img {
+    background-position: -40vh center;
+    height: 65vh;
+  }
+}
 
-    #about img {
-        max-width: 90%;
-        margin: auto;
-        display: block;
-    }
+@media only screen and (max-width: 360px) {
+  .banar-img {
+    background-position: -36vh center;
+    height: 55vh;
+  }
 }

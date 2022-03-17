@@ -73,6 +73,10 @@ a {
   font-weight: 502;
   display: inline-block;
 }
+.navbar-contant a:hover {
+  background: #060606;
+  transition: 0.9s;
+}
 .navbar-contant p {
   color: black;
 }
@@ -130,6 +134,7 @@ a {
   line-height: 30px;
   font-weight: 600;
   width: 200px;
+  color: black;
 }
 
 .features-right h4 {
